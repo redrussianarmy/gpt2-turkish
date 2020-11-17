@@ -42,7 +42,7 @@ text = pipe("Akşamüstü yolda ilerlerken, ")[0]["generated_text"]
 print(text)
 ```
 
-### How to clone the model repo
+### How to clone the model repo?
 ```
 git lfs install
 git clone https://huggingface.co/redrussianarmy/gpt2-turkish-cased
