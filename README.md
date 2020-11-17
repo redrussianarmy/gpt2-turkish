@@ -1,4 +1,4 @@
-# Turkish GPT-2 Model
+# 🇹🇷 Turkish GPT-2 Model
 
 In this repository I release GPT-2 model, that was trained on various texts for Turkish.
 
