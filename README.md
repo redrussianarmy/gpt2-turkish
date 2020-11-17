@@ -14,6 +14,9 @@ With the Tokenizers library, I created a 52K byte-level BPE vocab based on the t
 
 After creating the vocab, I could train the GPT-2 for Turkish on two 2080TI over the complete training corpus (five epochs).
 
+Logs during training:
+https://tensorboard.dev/experiment/3AWKv8bBTaqcqZP5frtGkw/#scalars
+
 ## Model weights
 
 Both PyTorch and Tensorflow compatible weights are available.
