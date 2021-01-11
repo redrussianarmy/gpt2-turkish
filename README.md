@@ -1,9 +1,16 @@
 # 🇹🇷 Turkish GPT-2 Model
 
+![](https://img.shields.io/github/forks/redrussianarmy/gpt2-turkish?style=for-the-badge)
+![](https://img.shields.io/github/stars/redrussianarmy/gpt2-turkish?style=for-the-badge)
+![](https://img.shields.io/github/issues/redrussianarmy/gpt2-turkish?style=for-the-badge)
+![](https://img.shields.io/bitbucket/pr-raw/redrussianarmy/gpt2-turkish?style=for-the-badge)
+![](https://img.shields.io/github/license/redrussianarmy/gpt2-turkish?style=for-the-badge)
+
 In this repository I release GPT-2 model, that was trained on various texts for Turkish.
 
 The model is meant to be an entry point for fine-tuning on other texts.
 
+---
 ## Training corpora
 
 I used a Turkish corpora that is taken from oscar-corpus.
@@ -17,6 +24,7 @@ After creating the vocab, I could train the GPT-2 for Turkish on two 2080TI over
 Logs during training:
 https://tensorboard.dev/experiment/3AWKv8bBTaqcqZP5frtGkw/#scalars
 
+---
 ## Model weights
 
 Both PyTorch and Tensorflow compatible weights are available.
@@ -25,6 +33,7 @@ Both PyTorch and Tensorflow compatible weights are available.
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------
 | `redrussianarmy/gpt2-turkish-cased`   | [`config.json`](https://huggingface.co/redrussianarmy/gpt2-turkish-cased/resolve/main/config.json) • [`merges.txt`](https://huggingface.co/redrussianarmy/gpt2-turkish-cased/resolve/main/merges.txt) • [`pytorch_model.bin`](https://huggingface.co/redrussianarmy/gpt2-turkish-cased/resolve/main/pytorch_model.bin) • [`special_tokens_map.json`](https://huggingface.co/redrussianarmy/gpt2-turkish-cased/resolve/main/special_tokens_map.json) • [`tf_model.h5`](https://huggingface.co/redrussianarmy/gpt2-turkish-cased/resolve/main/tf_model.h5) • [`tokenizer_config.json`](https://huggingface.co/redrussianarmy/gpt2-turkish-cased/resolve/main/tokenizer_config.json) • [`traning_args.bin`](https://huggingface.co/redrussianarmy/gpt2-turkish-cased/resolve/main/training_args.bin) • [`vocab.json`](https://huggingface.co/redrussianarmy/gpt2-turkish-cased/resolve/main/vocab.json)
 
+---
 ## Using the model
 
 The model itself can be used in this way:
@@ -51,5 +60,6 @@ git lfs install
 git clone https://huggingface.co/redrussianarmy/gpt2-turkish-cased
 ```
 
+---
 ## Contact (Bugs, Feedback, Contribution and more)
 For questions about the GPT2-Turkish model, just open an issue [here](https://github.com/redrussianarmy/gpt2-turkish/issues) 🤗
